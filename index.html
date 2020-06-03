@@ -1,0 +1,940 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="zh-cmn-Hans">
+<head>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta charset="UTF-8">
+    <!--IE 8浏览器的页面渲染方式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <!--默认使用极速内核：针对国内浏览器产商-->
+    <meta name="renderer" content="webkit">
+    <!--chrome Android 地址栏颜色-->
+        <meta name="theme-color" content="#3a3f51" />
+    
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+    <title>王友元's Blog</title>
+            <link rel="icon" type="image/ico" href="https://cdn.jsdelivr.net/gh/huxx16/a@master/fantino.png">
+        <meta name="description" content="一花一世界，一沙一天堂。君掌盛无边，刹那成永恒。这里是汪汪汪汪汪友元的博客~~~" />
+<meta name="keywords" content="typecho,php,blog" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="handsome" />
+<link rel="pingback" href="https://moetuan.cn/index.php/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://moetuan.cn/index.php/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://moetuan.cn/index.php/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="王友元's Blog &raquo; RSS 2.0" href="https://moetuan.cn/index.php/feed/" />
+<link rel="alternate" type="application/rdf+xml" title="王友元's Blog &raquo; RSS 1.0" href="https://moetuan.cn/index.php/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="王友元's Blog &raquo; ATOM 1.0" href="https://moetuan.cn/index.php/feed/atom/" />
+				<style>
+				.thumb-lg{width:96px;}.avatar{-webkit-transition:0.4s;-webkit-transition:-webkit-transform 0.4s ease-out;transition:transform 0.4s ease-out;-moz-transition:-moz-transform 0.4s ease-out;}.avatar:hover{transform:rotateZ(360deg);-webkit-transform:rotateZ(360deg);-moz-transform:rotateZ(360deg);}#aside-user span.avatar{animation-timing-function:cubic-bezier(0,0,.07,1)!important;}#aside-user span.avatar:hover{transform:rotate(360deg) scale(1.2);border-width:5px;animation:avatar .5s}
+				</style>				<style>
+				.nav-tabs-alt .nav-tabs>li.active>a{border-bottom-color:#23b7e5!important;}.navs-slider-bar{background-color:#058cff!important;}.post_tab .nav-item.active .nav-link::before{border-bottom-color:rgb(5,140,255)!important;}
+				</style>				<style>
+				.panel{cursor:pointer;transition:all 0.6s;}.blog-post .panel:not(article):hover{transform:translateY(-10px);}.panel-small{cursor:pointer;transition:all 0.6s;}.panel-small:hover{transform:scale(1.05);}.item-thumb{cursor:pointer;transition:all 0.6s;}.item-thumb:hover{transform:scale(1.05);}.item-thumb-small{cursor:pointer;transition:all 0.6s;}.item-thumb-small:hover{transform:scale(1.05);}
+				</style>				<style>
+				.panel{-moz-box-shadow:0 8px 10px rgba(255,112,173,0.35);}.panel:hover{box-shadow:0 8px 10px rgba(62,147,241,0.37)!important;-moz-box-shadow:0 8px 10px rgba(62,147,241,0.35)!important;}.panel-small{box-shadow:0 8px 10px rgba(255,112,173,0.35);-moz-box-shadow:0 8px 10px rgba(255,112,173,0.35);}.panel-small:hover{box-shadow:0 8px 10px rgba(255,112,173,0.35)!important;-moz-box-shadow:0 8px 10px rgba(255,112,173,0.35)!important;}.app.container{box-shadow:0 0 30px rgba(255,112,173,0.35);}.index-post-img,.entry-thumbnail{overflow:hidden;}
+				</style>				<style>.bg-light .lter,.bg-light.lter{text-align:center!important;font-family:楷体!important;}</style>
+				<style media="screen and (max-width:768px)">h1.m-n.font-thin.text-black.l-h{display:none!important;}h1.entry-title.m-n.font-thin.text-black.l-h {display: block!important;}</style>				<style>
+				div#toc{opacity:0.6;}div#toc::-webkit-scrollbar{width:6px;}div#toc::-webkit-scrollbar-thumb{background-color:#ccc;border-radius:6px;}div#toc::-webkit-scrollbar-track{background-color:#e8eaeb;border-radius:6px;}
+				</style>				<style>
+				#post-content h1{font-size:30px}#post-content h2{position:relative;margin:20px 0 32px!important;font-size:1.55em;}#post-content h3{font-size:20px}#post-content h4{font-size:15px}#post-content h2::after{transition:all .35s;content:"";position:absolute;background:linear-gradient(#3c67bd8c 30%,#3c67bd 70%);width:1em;left:0;box-shadow:0 3px 3px rgba(32,160,255,.4);height:3px;bottom:-8px;}#post-content h2::before{content:"";width:100%;border-bottom:1px solid #eee;bottom:-7px;position:absolute}#post-content h2:hover::after{width:2.5em;}#post-content h1,#post-content h2,#post-content h3,#post-content h4,#post-content h5,#post-content h6{color:#666;line-height:1.4;font-weight:700;margin:30px 0 10px 0}
+				</style>			<style>
+			/* 页脚版权信息美化 */
+			span.footer-custom{color:#fff;display:inline-block;padding-top:2px;padding:2px 4px 2px 6px;padding-bottom:2px;padding-right:4px;padding-left:6px;}span.footer-left-ver{background-color:#4d4d4d;border-top-left-radius:4px;border-bottom-left-radius:4px;}span.footer-left-user{background-color:#007ec6;border-top-right-radius:4px;border-bottom-right-radius:4px;}span.footer-right-name{background-color:#ffa500;border-top-right-radius:4px;border-bottom-right-radius:4px;}span.footer-user-info{background:linear-gradient(to right,#7A88FF,#d27aff);border-top-right-radius:4px;border-bottom-right-radius:4px;}
+			/* 忘记密码按钮 */
+			a.ModifyPasswd{float:right!important;}
+			/* 文章内插入标签卡 */
+			.tab-pane a.light-link img{box-shadow:0 8px 10px rgba(0,0,0,0.35);}img.emotion-aru,img.emotion-twemoji{box-shadow:0 8px 10px rgba(0,0,0,0)!important;}li.nav-item.active{background-color:rgba(41,98,255,0.2);transition:color 1s ease,background-color 1s ease;}.post_tab .nav a,.post_tab .nav a:hover{outline:none;transition:color 1s ease,background-color 1s ease;}
+			/*  评论区博主标识美化 */
+			label.label.bg-dark.m-l-xs{background-color:#e7a671!important;color:white!important;}
+			/*  兼容性修复 */
+			@media (min-width:768px){.app-aside-fixed .aside-wrap{background-color:inherit!important;}}
+			/*  手机终端美化 */
+			@media screen and (max-width:768px){h1.m-n.font-thin.text-black.l-h{display:none!important;}h1.entry-title{display:block!important;}p.summary.l-h-2x.text-muted{display:none;}h1.entry-title.m-n.font-thin.text-black.l-h{font-size:24px!important;}}
+			.modal-backdrop.in{display:none;}
+			/* 首页文章列表透明 */
+			#post-panel {opacity: 0.98;}
+			/* 修复handsome酷炫透明模式的文章目录 */
+			div#toc { color: #777; box-shadow: 0 2px 6px 0 rgba(114,124,245,.5); border-radius: 6px; }
+			</style><link rel="stylesheet" type="text/css" href="https://www.moetuan.cn/usr/plugins/AliceStyle/static/css/top.css" /><!-- 顶部跑马灯特效 --><div id="top-grrk"></div><link rel="stylesheet" href="https://www.moetuan.cn/usr/plugins/PandaBangumi/css/PandaBangumi.25.css?v=2.3" /><script src="https://www.moetuan.cn/usr/plugins/PandaBangumi/js/jq.min.js"></script><script>var bgmBase="https://moetuan.cn/index.php/PandaBangumi"</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css" /><link href='https://www.moetuan.cn/usr/plugins/Pio/static/pio.css' rel='stylesheet' type='text/css'/>
+
+        <!-- 第三方CDN加载CSS -->
+        <link href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- 本地css静态资源 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/css/function.min.css?v=6.0.020191205" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/css/handsome.min.css?v=6.0.020191205" type="text/css" />
+
+
+
+    <!--主题组件css文件加载-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/css/features/jquery.fancybox.min.css?v=6.0.020191205" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/css/features/newblack.min.css?v=6.0.020191205" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/css/features/code/zenburn.min.css?v=6.0.020191205" type="text/css" />
+    
+    <!--引入英文字体文件-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/css/font.min.css?v=6.0.020191205" type="text/css" />
+    
+    <style type="text/css">
+        
+        html.bg {
+        background: #EFEFEF
+        }
+        .cool-transparent .off-screen+* .app-content-body {
+        background: #EFEFEF
+        }
+@media (max-width:767px){
+    html.bg {
+        background: #EFEFEF
+        }
+        .cool-transparent .off-screen+* .app-content-body {
+        background: #EFEFEF
+        }
+}
+#aside .wrapper:hover {
+	background: url(https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/img/snow.gif);
+	background-size: cover;
+	color: #999;
+}    </style>
+
+    <!--全站jquery-->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!--网站统计代码-->
+    <script type="text/javascript" src="//js.users.51.la/20795683.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/features/fancyMorph.min.js"></script>
+
+
+</head>
+
+<body id="body" class="fix-padding">
+
+
+  <!-- aside -->
+    
+  <div id="alllayout" class="app app-aside-fix no-container app-header-fixed ">  <!-- headnav -->
+      <header id="header" class="fix-padding app-header navbar box-shadow-bottom-lg" role="menu">
+      <!-- navbar header（交集处） -->
+        <div class="text-ellipsis navbar-header bg-white">
+        <button class="pull-right visible-xs" ui-toggle-class="show animated animated-lento fadeIn" target=".navbar-collapse">
+            <span class="menu-icons"><i data-feather="search"></i></span>
+        </button>
+        <button class="pull-left visible-xs" ui-toggle-class="off-screen animated" target=".app-aside" ui-scroll="app">
+            <span class="menu-icons"><i data-feather="menu"></i></span>
+        </button>
+        <!-- brand -->
+        <a href="https://moetuan.cn/" class="navbar-brand text-lt">
+                                                <i class="glyphicon glyphicon-heart"></i>
+                                <span class="hidden-folded m-l-xs">Moetuan</span>
+                    </a>
+        <!-- / brand -->
+      </div>
+      <!-- / navbar header -->
+
+      <!-- navbar collapse（顶部导航栏） -->
+    <div class="collapse pos-rlt navbar-collapse bg-white">
+        <!-- search form -->
+        <form id="searchform1" class="searchform navbar-form navbar-form-sm navbar-left shift" method="post"
+              role="search">
+          <div class="form-group">
+            <div class="input-group rounded bg-white-pure box-shadow-wrap-normal">
+              <input  autocomplete="off" id="search_input" type="search" name="s" class="transparent rounded form-control input-sm no-borders padder" required placeholder="输入关键词搜索…">
+                <!--搜索提示-->
+                <ul id="search_tips_drop" class="small-scroll-bar dropdown-menu hide" style="display: block;top: 
+                30px; left: 0px;">
+                </ul>
+              <span id="search_submit" class="transparent input-group-btn">
+                  <button  type="submit" class="transparent btn btn-sm">
+                      <span class="feathericons" id="icon-search"><i data-feather="search"></i></span>
+                      <span class="feathericons animate-spin  hide" id="spin-search"><i
+                                  data-feather="loader"></i></span>
+<!--                      <i class="fontello fontello-search" id="icon-search"></i>-->
+<!--                      <i class="animate-spin  fontello fontello-spinner hide" id="spin-search"></i>-->
+                  </button>
+              </span>
+            </div>
+          </div>
+        </form>
+          <a href="" style="display: none" id="searchUrl"></a>
+        <!-- / search form -->
+                <ul class="nav navbar-nav navbar-right">
+                                              <!--闲言碎语-->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="feathericons dropdown-toggle">
+                <i data-feather="twitch"></i>
+                <span class="visible-xs-inline">
+              闲言碎语              </span>
+              <span class="badge badge-sm up bg-danger pull-right-xs"></span>
+            </a>
+            <!-- dropdown -->
+            <div class="dropdown-menu w-xl animated fadeInUp">
+              <div class="panel bg-white">
+                <div class="panel-heading b-light bg-light">
+                  <strong>
+              闲言碎语                  </strong>
+                </div>
+                <div class="list-group" id="smallRecording">
+                  <a href="https://moetuan.cn/index.php/cross.html" class="list-group-item"><span class="clear block m-b-none words_contents">建站100天纪念！<br><small class="text-muted">2020-5-11 22:13:22</small></span></a><a href="https://moetuan.cn/index.php/cross.html" class="list-group-item"><span class="clear block m-b-none words_contents">该评论仅登录用户及评论双方可见<br><small class="text-muted">2020-5-10 00:34:05</small></span></a><a href="https://moetuan.cn/index.php/cross.html" class="list-group-item"><span class="clear block m-b-none words_contents">00:00加载中……请稍等……
+想要远离喧嚣，想要每天焕然一新，即使没有勇气做到，我也渴望着真物。<br><small class="text-muted">2020-5-8 23:04:41</small></span></a>                </div>
+              </div>
+            </div>
+          </li>
+          <!--/闲言碎语-->
+                                  <!--登录管理-->
+          <li class="dropdown" id="easyLogin">
+            <a onclick="return false" data-toggle="dropdown" class="dropdown-toggle clear" data-toggle="dropdown">
+                        <span class="feathericons"><i data-feather="key"></i></span>
+                        <b class="caret"></b><!--下三角符号-->
+            </a>
+            <!-- dropdown(已经登录) -->
+                      <div class="dropdown-menu w-lg wrapper bg-white animated fadeIn" aria-labelledby="navbar-login-dropdown">
+            <form id="Login_form" action="https://moetuan.cn/index.php/action/login?_=4f2f47762dff3e6324cc0c1b40f00471" method="post">
+              <div class="form-group">
+                <label for="navbar-login-user">用户名</label>
+                <input type="text" name="name" id="navbar-login-user" class="form-control" placeholder="用户名或电子邮箱"></div>
+              <div class="form-group">
+                <label for="navbar-login-password">密码</label>
+                <input type="password" name="password" id="navbar-login-password" class="form-control" placeholder="密码"></div>
+                <button style="width: 100%" type="submit" id="login-submit" name ="submitLogin" class="btn-rounded box-shadow-wrap-lg btn-gd-primary padder-lg">
+                    <span>登录</span>
+                    <span class="text-active">登录中...</span>
+                    <span class="banLogin_text">刷新页面后登录</span>
+                    <i class="animate-spin  fontello fontello-spinner hide" id="spin-login"></i>
+                    <i class="animate-spin fontello fontello-refresh hide" id="ban-login"></i>
+                </button>
+
+
+              
+              <input type="hidden" name="referer" value="https://moetuan.cn"
+                     data-current-url="value"></form>
+          </div>
+                    </li>
+          <!--/登录管理-->
+                    </ul>
+      </div>
+      <!-- / navbar collapse -->
+  </header>
+  <!-- / headnav -->
+
+  <!--选择侧边栏的颜色-->
+  <aside id="aside" class="app-aside hidden-xs bg-white">  <!--<aside>-->
+        <div class="aside-wrap" layout="column">
+        <div class="navi-wrap scroll-y scroll-hide" flex>
+          <!-- user -->
+          <div class="clearfix hidden-xs text-center hide  show" id="aside-user">
+            <div class="dropdown wrapper ">
+                <div ui-nav>
+                          <a href="https://moetuan.cn/index.php/cross.html">
+                            <span class="thumb-lg w-auto-folded avatar m-t-sm  ">
+                  <img src="https://cdn.jsdelivr.net/gh/huxx16/a@master/fantino.png" class="img-full img-circle normal-shadow">
+                </span>
+              </a>
+                </div>
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle hidden-folded  ">
+                <span class="clear">
+                  <span class="block m-t-sm">
+                    <strong class="font-bold text-lt">王友元同学</strong>
+                    <b class="caret"></b>
+                  </span>
+                  <span class="text-muted text-xs block">社恐程序员×1</span>
+                </span>
+              </a>
+              <!-- dropdown -->
+              <ul class="dropdown-menu animated fadeInRight w hidden-folded no-padder">
+                <li class="wrapper b-b m-b-sm bg-info m-n">
+                  <span class="arrow top hidden-folded arrow-info"></span>
+                  <div>
+                                                  <p>早上好，永远年轻，永远热泪盈眶</p>
+                                  </div>
+                  <div class="progress progress-xs m-b-none dker">
+                    <div class="progress-bar bg-white" data-toggle="tooltip" data-original-title="时间已经度过29.17%" style="width: 29.17%"></div>
+                  </div>
+                </li>
+              </ul>
+              <!-- / dropdown -->
+            </div>
+          </div>
+          <!-- / user -->
+
+          <!-- nav -->
+          <nav ui-nav class="navi clearfix">
+            <ul class="nav">
+             <!--index-->
+                <div class="line dk hidden-folded"></div>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                <span>导航</span>
+              </li>
+                                          <!--主页-->
+              <li>
+                <a href="https://moetuan.cn/" class="auto">
+                    <span class="nav-icon"><i data-feather="home"></i></span>
+                    <span>首页</span>
+                </a>
+              </li>
+              <!-- /主页 -->
+                            <li> <a target="_blank" href="//tv.moetuan.cn" class ="auto"><span class="nav-icon"><i class="glyphicon glyphicon-heart-empty"></i></span><span>番组站</span></a></li><li> <a target="_blank" href="//moetuan.cn/index.php/558.html" class ="auto"><span class="nav-icon"><i class="glyphicon glyphicon-blackboard"></i></span><span>电影院</span></a></li><li> <a target="_blank" href="//moetuan.cn/musictest/" class ="auto"><span class="nav-icon"><i class="glyphicon glyphicon-music"></i></span><span>音乐解锁</span></a></li><li> <a target="_blank" href="//lolipark.tk" class ="auto"><span class="nav-icon"><i class="glyphicon glyphicon-thumbs-up"></i></span><span>萝莉公园</span></a></li><li> <a target="_blank" href="//moetuan.cn/index.php/me.html" class ="auto"><span class="nav-icon"><i class="glyphicon glyphicon-user"></i></span><span>关于</span></a></li>                              <li class="line dk"></li>
+			<!--Components-->
+              <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                <span>组成</span>
+              </li>
+              <!--分类category-->
+                              <li >
+                <a class="auto">
+                  <span class="pull-right text-muted">
+                    <i class="fontello icon-fw fontello-angle-right text"></i>
+                    <i class="fontello icon-fw fontello-angle-down text-active"></i>
+                  </span>
+<!--                  <i class="glyphicon glyphicon-th"></i>-->
+                    <span class="nav-icon"><i data-feather="grid"></i></span>
+
+                    <span>分类</span>
+                </a>
+                <ul class="nav nav-sub dk">
+                  <li class="nav-sub-header">
+                    <a>
+                      <span>分类</span>
+                    </a>
+                  </li>
+                  <!--循环输出分类-->
+                    <li><a href="https://moetuan.cn/index.php/category/webganhuo/"><b class="badge pull-right">15</b><span>进阶之路</span></a></li><li><a href="https://moetuan.cn/index.php/category/code/"><b class="badge pull-right">4</b><span>网站源码</span></a></li><li><a href="https://moetuan.cn/index.php/category/qsxhj/"><b class="badge pull-right">21</b><span>轻之国度</span></a></li><li><a href="https://moetuan.cn/index.php/category/jiaochng/"><b class="badge pull-right">3</b><span>GitHub技巧</span></a></li><li><a href="https://moetuan.cn/index.php/category/zaji/"><b class="badge pull-right">8</b><span>随手杂记</span></a></li><li><a href="https://moetuan.cn/index.php/category/csg/"><b class="badge pull-right">2</b><span>藏书馆</span></a></li><li><a href="https://moetuan.cn/index.php/category/wear/"><b class="badge pull-right">1</b><span>智能穿戴</span></a></li>                </ul>
+              </li>
+              <!--独立页面pages-->
+              <li>
+                <a class="auto">
+                  <span class="pull-right text-muted">
+                    <i class="fontello icon-fw fontello-angle-right text"></i>
+                    <i class="fontello icon-fw fontello-angle-down text-active"></i>
+                  </span>
+                    <span class="nav-icon"><i data-feather="file"></i></span>
+                  <span>页面</span>
+                </a>
+                <ul class="nav nav-sub dk">
+                  <li class="nav-sub-header">
+                    <a data-no-instant>
+                      <span>页面</span>
+                    </a>
+                  </li><!--这个字段不会被显示出来-->
+                  <!--循环输出独立页面-->
+                                                                                   <li><a href="https://moetuan.cn/index.php/guidang.html"><span>文章归档</span></a></li>
+                                                                 <li><a href="https://moetuan.cn/index.php/550.html"><span>我的追番</span></a></li>
+                                                                 <li><a href="https://moetuan.cn/index.php/542.html"><span>GitHub项目</span></a></li>
+                                                                 <li><a href="https://moetuan.cn/index.php/549.html"><span>备忘录＆日志</span></a></li>
+                                                                 <li><a href="https://moetuan.cn/index.php/cross.html"><span>时光机</span></a></li>
+                                   </ul>
+              </li>
+              <!--友情链接-->
+              <li>
+                <a class="auto">
+                  <span class="pull-right text-muted">
+                    <i class="fontello icon-fw fontello-angle-right text"></i>
+                    <i class="fontello icon-fw fontello-angle-down text-active"></i>
+                  </span>
+                    <span class="nav-icon"><i data-feather="user"></i></span>
+                  <span>友链</span>
+                </a>
+                <ul class="nav nav-sub dk">
+                  <li class="nav-sub-header">
+                    <a data-no-instant>
+                      <span>友链</span>
+                    </a>
+                  </li>
+                  <!--使用links插件，输出全站友链-->
+                 <li data-original-title="自营破站-可可爱爱番组站" data-toggle="tooltip" 
+data-placement="top"><a href="https://tv.moetuan.cn" target="_blank"><span>番组站</span></a></li><li data-original-title="萌团短域 简洁 大气" data-toggle="tooltip" 
+data-placement="top"><a href="http://moe1.ml" target="_blank"><span>萌团短域</span></a></li><li data-original-title="好友的论坛，公务员向" data-toggle="tooltip" 
+data-placement="top"><a href="https://oonnk.com" target="_blank"><span>黑马论坛</span></a></li>                </ul>
+              </li>
+                            </ul>
+          </nav>
+          <!-- nav -->
+        </div>
+          <!--end of .navi-wrap-->
+          <!--left_footer-->
+          
+      </div><!--.aside-wrap-->
+  </aside>
+<!-- content -->
+<div id="content" class="app-content">
+    <!--loading animate-->
+    <div id="loading" class="butterbar active hide">
+            <span class="bar"></span>
+        </div>  <!-- / aside -->
+
+<!-- <div id="content" class="app-content"> -->
+  <a class="off-screen-toggle hide"></a>
+  <main class="app-content-body ">
+    <div class="hbox hbox-auto-xs hbox-auto-sm">
+      <div class="col center-part">
+                  <header class="bg-light lter wrapper-md">
+          <h1 class="m-n font-thin text-black l-h">王友元's Blog</h1>
+          <small class="text-muted letterspacing indexWords">一花一世界，一沙一天堂。君掌盛无边,刹那成永恒</small>
+              <script data-ad-client="ca-pub-2066002102279501" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          </header>
+        <div class="wrapper-md" id="post-panel">
+
+                        <!--首页输出文章-->
+
+            <div class="blog-post"><div class="single-post panel">
+    <div class="index-post-img">
+        <a href="https://moetuan.cn/index.php/archives/552/">
+            <div class="item-thumb lazy"  style="background-image: url(https://cdn.jsdelivr.net/gh/huxx16/a@master/32345342534232334434351.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a 
+    href="https://moetuan.cn/index.php/archives/552/"><span class="label text-sm bg-danger pull-left m-t-xs m-r" style="margin-top:  2px;">置顶</span>博客以及番组站更换域名公告</a></h2><p class="summary l-h-2x text-muted">新域名 moetuan.cnmoe：萌  tuan：团子我永远喜欢由比滨结衣！先前的域名由于种种原因就不用了，现在访问kekeaiai.cn是跳转页面对应的番组站域名为tv.moetuan.cn请务必牢记（因为老域名到期注册局自动删除）当然旧域名还有效期还有9个月左右（9个月总该记住了叭 ::aru:confuse:: ）诸君务必牢记！</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><i data-feather="user"></i></span><a href="https://moetuan.cn/index.php/author/1/">王友元</a></li>
+
+<li><span class="right-small-icons m-r-sm"><i data-feather="clock"></i></span>2020 年 05 月 14 日</li><li><span class="right-small-icons m-r-sm"><i 
+data-feather="message-square"></i></span><a href="https://moetuan.cn/index.php/archives/552/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel">
+    <div class="index-post-img">
+        <a href="https://moetuan.cn/index.php/archives/565/">
+            <div class="item-thumb lazy"  style="background-image: url(https://cdn.jsdelivr.net/gh/huxx16/a@master/76405729_p01.png)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a 
+    href="https://moetuan.cn/index.php/archives/565/">音乐解锁-移除已购音乐的加密保护</a></h2><p class="summary l-h-2x text-muted">介绍音乐解锁是什么？QQ音乐、网易云音乐开通VIP之后，所下载的会员音乐均为加密格式。应版权方要求，此类歌曲会员用户下载后为专属格式，拷贝至其他播放器可能无法播放。若需拷贝至其他播放器播放，可单曲购买该歌曲后重新下载，即可拷贝至其他播放器播放。&nbsp;这个开源项目：音乐解锁  即为了解决了这一问题而开发（项目地址在文末）这里放一个我的部署示例&nbsp;&nbsp;Unlock Musi...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><i data-feather="user"></i></span><a href="https://moetuan.cn/index.php/author/1/">王友元</a></li>
+
+<li><span class="right-small-icons m-r-sm"><i data-feather="clock"></i></span>2020 年 05 月 31 日</li><li><span class="right-small-icons m-r-sm"><i 
+data-feather="message-square"></i></span><a href="https://moetuan.cn/index.php/archives/565/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel">
+    <div class="index-post-img">
+        <a href="https://moetuan.cn/index.php/archives/564/">
+            <div class="item-thumb lazy"  style="background-image: url(https://cdn.jsdelivr.net/gh/huxx16/m3u8/Weathering.with.You/p2562920547.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a 
+    href="https://moetuan.cn/index.php/archives/564/">电影院——天气之子-新海诚</a></h2><p class="summary l-h-2x text-muted">相比《你的名字。》要退步，对于少年的“我不想长大”的题材可能已经见得太多。人物塑造和画风依旧细腻，谁都是“为爱能舍弃所有的”少年。谨记或珍惜青春吧。在每个人年少最懵懂时都会有过这个冲动。那时的我们正因为什么都不懂，所以可以做到什么都不顾。这是一段最纯真的恋情，或许懵懂，或许单纯，但它的的确确是真正意义上除去杂质的真感情。这是一段真正意义上世界和你之间我选择你的故事。只要你在我身边，世界在疯狂...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><i data-feather="user"></i></span><a href="https://moetuan.cn/index.php/author/1/">王友元</a></li>
+
+<li><span class="right-small-icons m-r-sm"><i data-feather="clock"></i></span>2020 年 05 月 30 日</li><li><span class="right-small-icons m-r-sm"><i 
+data-feather="message-square"></i></span><a href="https://moetuan.cn/index.php/archives/564/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel">
+    <div class="index-post-img">
+        <a href="https://moetuan.cn/index.php/archives/562/">
+            <div class="item-thumb lazy"  style="background-image: url(https://www.cloudflare.com/img/logo-cloudflare-dark.svg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a 
+    href="https://moetuan.cn/index.php/archives/562/">记一次失败的Cloudflare接入</a></h2><p class="summary l-h-2x text-muted">人类总是在一次次挫折中不断向前发展的（但我并没有）。Cloudflare的CDN扛D性能不必说，但速度...更不必说。第四次尝试接入Cloudflare。以失败告终。所谓失败并不是接入方法不妥导致无法正常访问网站，而是说实际体验并不好。原因不出意料肯定是我自身的问题啦。&nbsp;接入方法笨牛的代理，这不必多说。使用的CNAME接入这次不同以往的是我尝试了自选线路&nbsp;折腾过程需要自定...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><i data-feather="user"></i></span><a href="https://moetuan.cn/index.php/author/1/">王友元</a></li>
+
+<li><span class="right-small-icons m-r-sm"><i data-feather="clock"></i></span>2020 年 05 月 24 日</li><li><span class="right-small-icons m-r-sm"><i 
+data-feather="message-square"></i></span><a href="https://moetuan.cn/index.php/archives/562/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel">
+    <div class="index-post-img">
+        <a href="https://moetuan.cn/index.php/archives/561/">
+            <div class="item-thumb lazy"  style="background-image: url(https://cdn.jsdelivr.net/gh/huxx16/Video-Bed/5.Centimeters.Per.Second/p2402687151.webp)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a 
+    href="https://moetuan.cn/index.php/archives/561/">电影院——秒速五厘米-新海诚</a></h2><p class="summary l-h-2x text-muted">那一瞬间，我仿佛知道了永远、心灵以及灵魂的所在，仿佛将十三年间的一切都分享给了对方。这之后的下一瞬，是无比的悲伤。因为明里的温暖，她的灵魂，我不知该如何珍藏，带向何方。</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><i data-feather="user"></i></span><a href="https://moetuan.cn/index.php/author/1/">王友元</a></li>
+
+<li><span class="right-small-icons m-r-sm"><i data-feather="clock"></i></span>2020 年 05 月 23 日</li><li><span class="right-small-icons m-r-sm"><i 
+data-feather="message-square"></i></span><a href="https://moetuan.cn/index.php/archives/561/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel">
+    <div class="index-post-img">
+        <a href="https://moetuan.cn/index.php/archives/560/">
+            <div class="item-thumb lazy"  style="background-image: url(https://cdn.jsdelivr.net/gh/huxx16/a@master/s29114417.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a 
+    href="https://moetuan.cn/index.php/archives/560/">王小波-《黄金时代》</a></h2><p class="summary l-h-2x text-muted">在我看来，这东西无比重要，就如我之存在本身。天色微微向晚，天上飘着懒洋洋的云彩。下半截沉在黑暗里，上半截仍浮在阳光中。那一天我二十一岁，在我一生的黄金时代。我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云。后来我才知道，生活就是个缓慢受锤的过程，人一天天老下去，奢望也一天天消失，最后变得像挨了锤的牛一样。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><i data-feather="user"></i></span><a href="https://moetuan.cn/index.php/author/1/">王友元</a></li>
+
+<li><span class="right-small-icons m-r-sm"><i data-feather="clock"></i></span>2020 年 05 月 23 日</li><li><span class="right-small-icons m-r-sm"><i 
+data-feather="message-square"></i></span><a href="https://moetuan.cn/index.php/archives/560/#comments">1 条评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+</div>          <!--分页首页按钮-->
+          <nav class="text-center m-t-lg m-b-lg" role="navigation">
+        <ol class="page-navigator"><li class="current"><a href="https://moetuan.cn/index.php/page/1/">1</a></li><li><a href="https://moetuan.cn/index.php/page/2/">2</a></li><li><a href="https://moetuan.cn/index.php/page/3/">3</a></li><li><a href="https://moetuan.cn/index.php/page/4/">4</a></li><li><span>...</span></li><li><a href="https://moetuan.cn/index.php/page/10/">10</a></li><li class="next"><a href="https://moetuan.cn/index.php/page/2/"><i class="fontello fontello-chevron-right"></i></a></li></ol>          </nav>
+            <style>
+                .page-navigator>li>a, .page-navigator>li>span{
+                    line-height: 1.42857143;
+                    padding: 6px 12px;
+                }
+            </style>
+        </div>
+      </div>
+      <!--首页右侧栏-->
+               <aside class="asideBar col w-md bg-white-only bg-auto no-border-xs" role="complementary">
+     <div id="sidebar">
+      <section id="tabs-4" class="widget widget_tabs clear">
+       <div class="nav-tabs-alt no-js-hide">
+        <ul class="nav nav-tabs nav-justified box-shadow-bottom-normal tablist" role="tablist">
+         <li data-index="0" class="active" role="presentation"> <a href="#widget-tabs-4-hots" role="tab" aria-controls="widget-tabs-4-hots" aria-expanded="true" data-toggle="tab"><div class="sidebar-icon wrapper-sm"><i data-feather="thumbs-up"></i></div><span class="sr-only">热门文章</span> </a></li>
+                            <li role="presentation" data-index="1"> <a href="#widget-tabs-4-comments" role="tab" aria-controls="widget-tabs-4-comments" aria-expanded="false" data-toggle="tab"><div class="sidebar-icon wrapper-sm"><i  data-feather="message-square"></i></div> <span class="sr-only">最新评论</span> </a></li>
+                        <li data-index="2" role="presentation"> <a href="#widget-tabs-4-random" role="tab" aria-controls="widget-tabs-4-random" aria-expanded="false" data-toggle="tab"> <div class="sidebar-icon wrapper-sm"><i data-feather="gift"></i></div>  <span class="sr-only">随机文章</span>
+             </a></li>
+            <span class="navs-slider-bar"></span>
+        </ul>
+       </div>
+       <div class="tab-content">
+       <!--热门文章-->
+        <div id="widget-tabs-4-hots" class="tab-pane  fade in wrapper-md active" role="tabpanel">
+         <h5 class="widget-title m-t-none text-md">热门文章</h5>
+         <ul class="list-group no-bg no-borders pull-in m-b-none">
+          <li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/554/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/1.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/554/" title="长篇：jsDelivr+GitHub视频床"> 长篇：jsDelivr+GitHub视频床 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><i data-feather="message-circle"></i></span>  <span class="sr-only">评论数：</span> <span class="meta-value">12</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/541/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/10.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/541/" title="BiliBili解除部分番剧地区限制"> BiliBili解除部分番剧地区限制 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><i data-feather="message-circle"></i></span>  <span class="sr-only">评论数：</span> <span class="meta-value">5</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/34/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/3.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/34/" title="博客里下载的epub格式轻小说怎么阅读？"> 博客里下载的epub格式轻小说怎么阅读？ </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><i data-feather="message-circle"></i></span>  <span class="sr-only">评论数：</span> <span class="meta-value">2</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/167/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/9.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/167/" title="百度网盘下载器，告别5kb限速"> 百度网盘下载器，告别5kb限速 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><i data-feather="message-circle"></i></span>  <span class="sr-only">评论数：</span> <span class="meta-value">2</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/464/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/6.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/464/" title="Jsdelivr+Github,打造静态CDN完美方案"> Jsdelivr+Github,打造静态CDN完美方案 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><i data-feather="message-circle"></i></span>  <span class="sr-only">评论数：</span> <span class="meta-value">2</span>
+                    </span></small></div></li>         </ul>
+        </div>
+                   <!--最新评论-->
+        <div id="widget-tabs-4-comments" class="tab-pane fade wrapper-md no-js-show" role="tabpanel">
+         <h5 class="widget-title m-t-none text-md">最新评论</h5>
+         <ul class="list-group no-borders pull-in auto m-b-none no-bg">
+                              <li class="list-group-item">
+
+              <a href="https://moetuan.cn/index.php/558.html#comment-52" class="pull-left thumb-sm avatar m-r">
+                  <img nogallery src="https://q.qlogo.cn/g?b=qq&nk=1218360328&s=100" class="img-40px photo img-square normal-shadow">              </a>
+              <a href="https://moetuan.cn/index.php/558.html#comment-52" class="text-muted">
+                  <!--<i class="iconfont icon-comments-o text-muted pull-right m-t-sm text-sm" title="" aria-hidden="true" data-toggle="tooltip" data-placement="auto left"></i>
+                  <span class="sr-only"></span>-->
+              </a>
+              <div class="clear">
+                  <div class="text-ellipsis">
+                      <a href="https://moetuan.cn/index.php/558.html#comment-52" title="王友元同学"> 王友元同学 </a>
+                  </div>
+                  <small class="text-muted">
+                      <span>
+                          仅供试看参考，不做商用。禁止转载，否则自负法律后果！                      </span>
+                  </small>
+              </div>
+          </li>
+                    <li class="list-group-item">
+
+              <a href="https://moetuan.cn/index.php/archives/554/#comment-51" class="pull-left thumb-sm avatar m-r">
+                  <img nogallery src="https://q.qlogo.cn/g?b=qq&nk=1218360328&s=100" class="img-40px photo img-square normal-shadow">              </a>
+              <a href="https://moetuan.cn/index.php/archives/554/#comment-51" class="text-muted">
+                  <!--<i class="iconfont icon-comments-o text-muted pull-right m-t-sm text-sm" title="" aria-hidden="true" data-toggle="tooltip" data-placement="auto left"></i>
+                  <span class="sr-only"></span>-->
+              </a>
+              <div class="clear">
+                  <div class="text-ellipsis">
+                      <a href="https://moetuan.cn/index.php/archives/554/#comment-51" title="王友元同学"> 王友元同学 </a>
+                  </div>
+                  <small class="text-muted">
+                      <span>
+                          是                      </span>
+                  </small>
+              </div>
+          </li>
+                    <li class="list-group-item">
+
+              <a href="https://moetuan.cn/index.php/archives/554/#comment-50" class="pull-left thumb-sm avatar m-r">
+                  <img nogallery src="https://q.qlogo.cn/g?b=qq&nk=1951055201&s=100" class="img-40px photo img-square normal-shadow">              </a>
+              <a href="https://moetuan.cn/index.php/archives/554/#comment-50" class="text-muted">
+                  <!--<i class="iconfont icon-comments-o text-muted pull-right m-t-sm text-sm" title="" aria-hidden="true" data-toggle="tooltip" data-placement="auto left"></i>
+                  <span class="sr-only"></span>-->
+              </a>
+              <div class="clear">
+                  <div class="text-ellipsis">
+                      <a href="https://moetuan.cn/index.php/archives/554/#comment-50" title="龙柳夜童欣"> 龙柳夜童欣 </a>
+                  </div>
+                  <small class="text-muted">
+                      <span>
+                          pt站是什么？是不是一个种子站，只能邀请注册的那种?                      </span>
+                  </small>
+              </div>
+          </li>
+                    <li class="list-group-item">
+
+              <a href="https://moetuan.cn/index.php/archives/554/#comment-49" class="pull-left thumb-sm avatar m-r">
+                  <img nogallery src="https://cdn.v2ex.com/gravatar/9acbd91fd68c1e009534178eb09c7b9f?s=65&r=G&d=" class="img-40px photo img-square normal-shadow">              </a>
+              <a href="https://moetuan.cn/index.php/archives/554/#comment-49" class="text-muted">
+                  <!--<i class="iconfont icon-comments-o text-muted pull-right m-t-sm text-sm" title="" aria-hidden="true" data-toggle="tooltip" data-placement="auto left"></i>
+                  <span class="sr-only"></span>-->
+              </a>
+              <div class="clear">
+                  <div class="text-ellipsis">
+                      <a href="https://moetuan.cn/index.php/archives/554/#comment-49" title="王友元同学"> 王友元同学 </a>
+                  </div>
+                  <small class="text-muted">
+                      <span>
+                          pt站找的原盘，然后压缩。                      </span>
+                  </small>
+              </div>
+          </li>
+                    <li class="list-group-item">
+
+              <a href="https://moetuan.cn/index.php/558.html#comment-46" class="pull-left thumb-sm avatar m-r">
+                  <img nogallery src="https://q.qlogo.cn/g?b=qq&nk=910689689&s=100" class="img-40px photo img-square normal-shadow">              </a>
+              <a href="https://moetuan.cn/index.php/558.html#comment-46" class="text-muted">
+                  <!--<i class="iconfont icon-comments-o text-muted pull-right m-t-sm text-sm" title="" aria-hidden="true" data-toggle="tooltip" data-placement="auto left"></i>
+                  <span class="sr-only"></span>-->
+              </a>
+              <div class="clear">
+                  <div class="text-ellipsis">
+                      <a href="https://moetuan.cn/index.php/558.html#comment-46" title="lyh"> lyh </a>
+                  </div>
+                  <small class="text-muted">
+                      <span>
+                          你的流量那么多吗，竟然恩盖博客上面看电影                      </span>
+                  </small>
+              </div>
+          </li>
+                   </ul>
+        </div>
+                   <!--随机文章-->
+        <div id="widget-tabs-4-random" class="tab-pane fade wrapper-md no-js-show" role="tabpanel">
+            <h5 class="widget-title m-t-none text-md">随机文章</h5>
+            <ul class="list-group no-bg no-borders pull-in">
+            <li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/252/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/1.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/252/" title="恶魔高校DxD(High School DxD)"> 恶魔高校DxD(High School DxD) </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><i data-feather="message-circle"></i></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/40/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/10.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/40/" title="epub-Re:从零开始的异世界生活"> epub-Re:从零开始的异世界生活 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><i data-feather="message-circle"></i></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/163/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/3.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/163/" title="源码分享：安易购领券返利网"> 源码分享：安易购领券返利网 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><i data-feather="message-circle"></i></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/244/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/9.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/244/" title="平凡职业造就世界最强"> 平凡职业造就世界最强 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><i data-feather="message-circle"></i></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://moetuan.cn/index.php/archives/519/" class="pull-left thumb-sm m-r"><img src="https://moetuan.cn/usr/themes/handsome/usr/img/sj2/6.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://moetuan.cn/index.php/archives/519/" title="Linux运行Win系统软件"> Linux运行Win系统软件 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><i data-feather="message-circle"></i></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li>            </ul>
+        </div>
+       </div>
+      </section>
+      <!--博客信息-->
+               <section id="blog_info" class="widget widget_categories wrapper-md clear">
+       <h5 class="widget-title m-t-none text-md">博客信息</h5>
+       <ul class="list-group box-shadow-wrap-normal">
+                      <li class="list-group-item text-second"><span class="blog-info-icons"> <i data-feather="award"></i></span> <span
+                       class="badge
+           pull-right">49</span>文章数目</li>
+           <li class="list-group-item text-second"> <span class="blog-info-icons"> <i data-feather="message-circle"></i></span>
+               <span class="badge
+           pull-right">49</span>评论数目</li>
+           <li class="list-group-item text-second"><span class="blog-info-icons"> <i data-feather="calendar"></i></span>
+               <span class="badge
+           pull-right">123天</span>运行天数</li>
+           <li class="list-group-item text-second"><span class="blog-info-icons"> <i data-feather="activity"></i></span> <span
+                       class="badge
+           pull-right">2 天前</span>最后活动</li>
+       </ul>
+      </section>
+                        <!--广告位置-->
+         <section id="a_d_sidebar" class="widget widget_categories wrapper-md clear">
+             <h5 class="widget-title m-t-none text-md"></h5>
+            <section id="a_d_sidebar" class="widget widget_categories wrapper-md clear">
+             <h5 class="widget-title m-t-none text-md">P站今日热图</h5>
+            <iframe src="https://cloud.mokeyjay.com/pixiv" frameborder="0"  alt="" width=100% height=380px /></iframe>
+  </section>         </section>
+                  <!--非文章页面-->
+            <section id="tag_cloud-2" class="widget widget_tag_cloud wrapper-md clear">
+       <h5 class="widget-title m-t-none text-md">标签云</h5>
+          <div class="tags l-h-2x">
+                                                                    <a href="https://moetuan.cn/index.php/tag/%E8%BD%BB%E5%B0%8F%E8%AF%B4/" class="label badge" title="轻小说" data-toggle="tooltip">轻小说</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E6%95%99%E7%A8%8B%E6%9D%82%E8%AE%B0/" class="label badge" title="教程杂记" data-toggle="tooltip">教程杂记</a>
+                                        <a href="https://moetuan.cn/index.php/tag/Git/" class="label badge" title="Git" data-toggle="tooltip">Git</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E6%BA%90%E7%A0%81/" class="label badge" title="源码" data-toggle="tooltip">源码</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E4%B8%83%E5%A0%87%E5%B9%B4/" class="label badge" title="七堇年" data-toggle="tooltip">七堇年</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E7%8E%8B%E5%B0%8F%E6%B3%A2/" class="label badge" title="王小波" data-toggle="tooltip">王小波</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E5%92%8C%E6%B3%89%E7%BA%B1%E9%9B%BE/" class="label badge" title="和泉纱雾" data-toggle="tooltip">和泉纱雾</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E8%87%AA%E8%90%A5%E9%A1%B9%E7%9B%AE/" class="label badge" title="自营项目" data-toggle="tooltip">自营项目</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E8%AF%B4%E6%98%8E/" class="label badge" title="说明" data-toggle="tooltip">说明</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E7%A9%BF%E6%88%B4/" class="label badge" title="穿戴" data-toggle="tooltip">穿戴</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E6%99%BA%E8%83%BD%E8%AE%BE%E5%A4%87/" class="label badge" title="智能设备" data-toggle="tooltip">智能设备</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E7%BE%8E%E5%8C%96/" class="label badge" title="美化" data-toggle="tooltip">美化</a>
+                                        <a href="https://moetuan.cn/index.php/tag/BiliBili/" class="label badge" title="BiliBili" data-toggle="tooltip">BiliBili</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E8%BF%BD%E7%95%AA/" class="label badge" title="追番" data-toggle="tooltip">追番</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BC%98%E5%8C%96/" class="label badge" title="服务器优化" data-toggle="tooltip">服务器优化</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E5%85%AC%E5%91%8A/" class="label badge" title="公告" data-toggle="tooltip">公告</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E8%97%8F%E4%B9%A6%E9%A6%86/" class="label badge" title="藏书馆" data-toggle="tooltip">藏书馆</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E9%BB%91%E8%89%B2%E5%B9%BD%E9%BB%98/" class="label badge" title="黑色幽默" data-toggle="tooltip">黑色幽默</a>
+                                        <a href="https://moetuan.cn/index.php/tag/%E5%BC%80%E6%BA%90/" class="label badge" title="开源" data-toggle="tooltip">开源</a>
+                                        <a href="https://moetuan.cn/index.php/tag/GitHub/" class="label badge" title="GitHub" data-toggle="tooltip">GitHub</a>
+                                          </div>
+      </section>
+        </div>
+     </aside>
+      </div>
+  </main>
+    <!-- footer -->
+  </div><!-- /content -->
+  <footer id="footer" class="app-footer" role="footer">
+    <div class="wrapper bg-light">
+      <span class="pull-right hidden-xs text-ellipsis">
+            Powered by <a target="_blank" href="http://www.typecho.org">Typecho</a>&nbsp;|&nbsp;Theme by <a target="_blank"
+                                                                                                     href="https://www.ihewro.com/archives/489/">handsome</a>
+      </span>
+        <span class="text-ellipsis">&copy;&nbsp;2020 Copyright&nbsp;爱玩互联</span>
+    </div>
+      <!--可以去除主题版权信息，最好保留版权信息或者添加主题信息到友链，谢谢你的理解-->
+            <style>
+          .topButton>.btn{
+              top: 0;
+          }
+          </style>
+      
+      <div class="topButton panel panel-default">
+          <button id="goToTop" class="btn btn-default no-shadow pos-abt hide  border-radius-half-left"
+                  data-toggle="tooltip" data-placement="left" data-original-title="返回顶部">
+              <i class="fontello fontello-chevron-circle-up" aria-hidden="true"></i>
+          </button>
+      </div>
+  </footer>
+  </div><!--end of .app app-header-fixed-->
+
+<script>
+SearchConfig = {
+    url : "https://www.moetuan.cn/usr/plugins/Handsome/cache/search.json"
+}
+</script>
+
+<script type="text/javascript" src="https://www.moetuan.cn/usr/plugins/AliceStyle/static/js/bg_file/a7.js"></script>				<script>
+				let leftHeader=document.querySelectorAll("span.nav-icon>svg,span.nav-icon>i");let leftHeaderColorArr=["#FF69B4","#58c7ea","#E066FF","#FF69B4","#FFA54F","#90EE90"];leftHeader.forEach(tag=>{tagsColor=leftHeaderColorArr[Math.floor(Math.random()*leftHeaderColorArr.length)];tag.style.color=tagsColor});	
+				</script>				<script>
+				let tags=document.querySelectorAll("#tag_cloud-2 a,.list-group-item .pull-right");let colorArr=["#428BCA","#AEDCAE","#ECA9A7","#DA99FF","#FFB380","#D9B999"];tags.forEach(tag=>{tagsColor=colorArr[Math.floor(Math.random()*colorArr.length)];tag.style.backgroundColor=tagsColor});
+				</script>				<script>
+				(function webpackUniversalModuleDefinition(a,b){if(typeof exports==="object"&&typeof module==="object"){module.exports=b()}else{if(typeof define==="function"&&define.amd){define([],b)}else{if(typeof exports==="object"){exports["POWERMODE"]=b()}else{a["POWERMODE"]=b()}}}})(this,function(){return(function(a){var b={};function c(e){if(b[e]){return b[e].exports}var d=b[e]={exports:{},id:e,loaded:false};a[e].call(d.exports,d,d.exports,c);d.loaded=true;return d.exports}c.m=a;c.c=b;c.p="";return c(0)})([function(c,g,b){var d=document.createElement("canvas");d.width=window.innerWidth;d.height=window.innerHeight;d.style.cssText="position:fixed;top:0;left:0;pointer-events:none;z-index:999999";window.addEventListener("resize",function(){d.width=window.innerWidth;d.height=window.innerHeight});document.body.appendChild(d);var a=d.getContext("2d");var n=[];var j=0;var k=120;var f=k;var p=false;o.shake=true;function l(r,q){return Math.random()*(q-r)+r}function m(r){if(o.colorful){var q=l(0,360);return"hsla("+l(q-10,q+10)+", 100%, "+l(50,80)+"%, "+1+")"}else{return window.getComputedStyle(r).color}}function e(){var t=document.activeElement;var v;if(t.tagName==="TEXTAREA"||(t.tagName==="INPUT"&&t.getAttribute("type")==="text")){var u=b(1)(t,t.selectionStart);v=t.getBoundingClientRect();return{x:u.left+v.left,y:u.top+v.top,color:m(t)}}var s=window.getSelection();if(s.rangeCount){var q=s.getRangeAt(0);var r=q.startContainer;if(r.nodeType===document.TEXT_NODE){r=r.parentNode}v=q.getBoundingClientRect();return{x:v.left,y:v.top,color:m(r)}}return{x:0,y:0,color:"transparent"}}function h(q,s,r){return{x:q,y:s,alpha:1,color:r,velocity:{x:-1+Math.random()*2,y:-3.5+Math.random()*2}}}function o(){var t=e();var s=5+Math.round(Math.random()*10);while(s--){n[j]=h(t.x,t.y,t.color);j=(j+1)%500}f=k;if(!p){requestAnimationFrame(i)}if(o.shake){var r=1+2*Math.random();var q=r*(Math.random()>0.5?-1:1);var u=r*(Math.random()>0.5?-1:1);document.body.style.marginLeft=q+"px";document.body.style.marginTop=u+"px";setTimeout(function(){document.body.style.marginLeft="";document.body.style.marginTop=""},75)}}o.colorful=false;function i(){if(f>0){requestAnimationFrame(i);f--;p=true}else{p=false}a.clearRect(0,0,d.width,d.height);for(var q=0;q<n.length;++q){var r=n[q];if(r.alpha<=0.1){continue}r.velocity.y+=0.075;r.x+=r.velocity.x;r.y+=r.velocity.y;r.alpha*=0.96;a.globalAlpha=r.alpha;a.fillStyle=r.color;a.fillRect(Math.round(r.x-1.5),Math.round(r.y-1.5),3,3)}}requestAnimationFrame(i);c.exports=o},function(b,a){(function(){var d=["direction","boxSizing","width","height","overflowX","overflowY","borderTopWidth","borderRightWidth","borderBottomWidth","borderLeftWidth","borderStyle","paddingTop","paddingRight","paddingBottom","paddingLeft","fontStyle","fontVariant","fontWeight","fontStretch","fontSize","fontSizeAdjust","lineHeight","fontFamily","textAlign","textTransform","textIndent","textDecoration","letterSpacing","wordSpacing","tabSize","MozTabSize"];var e=window.mozInnerScreenX!=null;function c(k,l,o){var h=o&&o.debug||false;if(h){var i=document.querySelector("#input-textarea-caret-position-mirror-div");if(i){i.parentNode.removeChild(i)}}var f=document.createElement("div");f.id="input-textarea-caret-position-mirror-div";document.body.appendChild(f);var g=f.style;var j=window.getComputedStyle?getComputedStyle(k):k.currentStyle;g.whiteSpace="pre-wrap";if(k.nodeName!=="INPUT"){g.wordWrap="break-word"}g.position="absolute";if(!h){g.visibility="hidden"}d.forEach(function(p){g[p]=j[p]});if(e){if(k.scrollHeight>parseInt(j.height)){g.overflowY="scroll"}}else{g.overflow="hidden"}f.textContent=k.value.substring(0,l);if(k.nodeName==="INPUT"){f.textContent=f.textContent.replace(/\s/g,"\u00a0")}var n=document.createElement("span");n.textContent=k.value.substring(l)||".";f.appendChild(n);var m={top:n.offsetTop+parseInt(j["borderTopWidth"]),left:n.offsetLeft+parseInt(j["borderLeftWidth"])};if(h){n.style.backgroundColor="#aaa"}else{document.body.removeChild(f)}return m}if(typeof b!="undefined"&&typeof b.exports!="undefined"){b.exports=c}else{window.getCaretCoordinates=c}}())}])});POWERMODE.colorful=true;POWERMODE.shake=false;document.body.addEventListener("input",POWERMODE);
+				</script><div id="updown"><div class="sidebar_wo" id="leimu">
+	        <img src="https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/leimuA.png" alt="雷姆" onmouseover="this.src='https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/leimuB.png'" onmouseout="this.src='https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/leimuA.png'" id="audioBtn"></div>
+	        <div class="sidebar_wo" id="lamu"><img src="https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/lamuA.png" alt="雷姆" onmouseover="this.src='https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/lamuB.png'" onmouseout="this.src='https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/lamuA.png'" id="audioBtn"></div><script type="text/javascript" src="https://www.moetuan.cn/usr/plugins/AliceStyle/static/js/need_file/ReturnTop.jquery.min.js"></script><script type="text/javascript" src="https://www.moetuan.cn/usr/plugins/AliceStyle/static/js/need_file/top.js"></script><canvas id="fireworks" style="position:fixed;left:0;top:0;pointer-events:none;z-index:999999999999;"></canvas><script>				$("body").css("cursor", "url('https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/cur/fireworks/normal.cur'), default");
+				$("a").css("cursor", "url('https://www.moetuan.cn/usr/plugins/AliceStyle/static/img/cur/fireworks/link.cur'), pointer");</script><script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script><script type='text/javascript' src='https://www.moetuan.cn/usr/plugins/AliceStyle/static/js/need_file/fireworks.js'></script><script>console.log("\n %c AliceStyle v2.6.3 Pro By 萌卜兔's | https://racns.com/374.html","color:#fff;background: linear-gradient(to right , #7A88FF, #d27aff);padding:5px;border-radius: 10px;");</script><script type="text/javascript" src="https://www.moetuan.cn/usr/plugins/PandaBangumi/js/PandaBangumi.24.js?v=2.3"></script><script type="text/javascript" src="https://www.moetuan.cn/usr/plugins/DPlayer/plugin/hls.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+<script type="text/javascript" src="https://www.moetuan.cn/usr/plugins/DPlayer/assets/player.js"></script><div class="pio-container right"><div class="pio-action"></div><canvas id="pio" width="230" height="275"></canvas></div><script src='https://www.moetuan.cn/usr/plugins/Pio/static/l2d.js'></script>
+<script src='https://www.moetuan.cn/usr/plugins/Pio/static/pio.js'></script>
+<script>var pio = new Paul_Pio({"mode":"draggable","hidden":false,"content":[],"tips":true,"model":["https://www.moetuan.cn/usr/plugins/Pio/models/rem/model.json"]});</script>
+    <!--定义全局变量-->
+    <script type="text/javascript">
+        window['LocalConst'] = {
+            COMMENT_NAME_INFO: '必须填写昵称或姓名',
+            COMMENT_EMAIL_INFO: '必须填写电子邮箱地址',
+            COMMENT_EMAIL_LEGAL_INFO: '邮箱地址不合法',
+            COMMENT_CONTENT_INFO: '必须填写评论内容',
+            COMMENT_SUBMIT_ERROR: '提交失败，请重试！',
+            COMMENT_CONTENT_LEGAL_INFO: '提交失败,评论被拦截，可能发言太快或内容不符合规则',
+
+            LOGIN_USERNAME_INFO: '必须填写用户名',
+            LOGIN_PASSWORD_INFO: '请填写密码',
+            LOGIN_SUBMIT_ERROR: '登录失败，请重新登录',
+            LOGIN_SUBMIT_INFO: '用户名或者密码错误，请重试',
+            LOGIN_SUBMIT_SUCCESS: '登录成功',
+            CLICK_TO_REFRESH: '点击以刷新页面',
+            LOGOUT_SUCCESS_REFRESH: '退出成功，正在刷新当前页面',
+
+            LOGOUT_ERROR: '退出失败，请重试',
+            LOGOUT_SUCCESS: '退出成功',
+
+            SUBMIT_PASSWORD_INFO: '密码错误，请重试',
+            COMMENT_TITLE: '评论通知',
+            LOGIN_TITLE: '登录通知',
+            ChANGYAN_APP_KEY: '',
+            CHANGYAN_CONF: '',
+
+            COMMENT_SYSTEM: '0',
+            COMMENT_SYSTEM_ROOT: '0',
+            COMMENT_SYSTEM_CHANGYAN: '1',
+            COMMENT_SYSTEM_OTHERS: '2',
+            EMOJI: '表情',
+            IS_PJAX: '1',
+            IS_PAJX_COMMENT: '1',
+            BASE_SCRIPT_URL: 'https://moetuan.cn/usr/themes/handsome/',
+            BLOG_URL: 'https://moetuan.cn/',
+            BLOG_URL_PHP: 'https://moetuan.cn/index.php/',
+            THEME_COLOR: '14',
+            THEME_COLOR_EDIT: 'white-white-white',
+            THEME_HEADER_FIX: '1',
+            THEME_ASIDE_FIX: '1',
+            THEME_ASIDE_FOLDED: '',
+            THEME_ASIDE_DOCK: '',
+            THEME_CONTAINER_BOX: '',
+            THEME_HIGHLIGHT_CODE: '1',
+            THEME_TOC: '1',
+            TOC_TITLE: '文章目录',
+            HEADER_FIX: '固定头部',
+            ASIDE_FIX: '固定导航',
+            ASIDE_FOLDED: '折叠导航',
+            ASIDE_DOCK: '置顶导航',
+            CONTAINER_BOX: '盒子模型',
+            OFF_SCROLL_HEIGHT: '50',
+            COMMENT_REJECT_PLACEHOLDER: '居然什么也不说，哼',
+            COMMENT_PLACEHOLDER: '说点什么吧……',
+            SHOW_SETTING_BUTTON: '',
+            THEME_VERSION: '6.0.020191205',
+
+            OPERATION_NOTICE: '操作通知',
+            SCREENSHOT_BEGIN: '正在生成当前页面截图……',
+            SCREENSHOT_NOTICE: '点击顶部下载按钮保存当前卡片',
+            SCREENSHORT_ERROR: '由于图片跨域原因导致截图失败',
+            SCREENSHORT_SUCCESS: '截图成功',
+            MUSIC_NOTICE: '播放通知',
+            MUSIC_FAILE: '当前音乐地址无效，自动为您播放下一首',
+            MUSIC_FAILE_END: '当前音乐地址无效',
+            MUSIC_LIST_SUCCESS: '歌单歌曲加载成功',
+            CDN_NAME: '',
+            LAZY_LOAD: ''
+        };
+
+    </script>
+
+
+
+<!--CDN加载-->
+<script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/features/jquery.pjax.min.js" type="text/javascript"></script>
+    <script>
+        $(document).pjax('a[href^="https://moetuan.cn/"]:not(a[target="_blank"], a[no-pjax])', {
+            container: '#content',
+            fragment: '#content',
+            timeout: 8000
+        }).on('pjax:send',function () {
+                        $('#loading').removeClass('hide');
+                    }).on('pjax:click', function() {
+
+            window['Page'].doPJAXClickAction();
+            
+                        $('body,html').animate({scrollTop:0},1000);
+            
+
+        }).on('pjax:complete', function() {
+            window['Page'].doPJAXCompleteAction();
+            if ($(".post-position").length > 0){
+                window['Page'].doPJAXCompletePostAction();
+            }
+                                    $('#loading').addClass('hide');
+            
+            let tags=document.querySelectorAll("#tag_cloud-2 a,.list-group-item .pull-right");let colorArr=["#428BCA","#AEDCAE","#ECA9A7","#DA99FF","#FFB380","#D9B999"];tags.forEach(tag=>{tagsColor=colorArr[Math.floor(Math.random()*colorArr.length)];tag.style.backgroundColor=tagsColor});
+loadDPlayer();            
+
+        })
+    </script>
+
+
+<!--主题组件js加载-->
+
+
+
+<!--pjax动画组件-->
+
+
+<script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/features/feather.min.js?v=6.0.020191205"></script>
+
+
+
+
+<!--lightgallery必备组件-->
+<script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/features/jquery.fancybox.min.js?v=6.0.020191205"></script>
+<script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/features/easypiechart.min.js?v=6.0.020191205"></script>
+
+
+    <!--component/comments.php 页面必需js（只有选择了原生评论的时候才会加载）-->
+    <script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/features/OwO.min.js?v=6.0.020191205"></script>
+    <!--component/comments.php 必需js结束-->
+
+
+<!--主题组件js加载结束-->
+
+<!--主题核心js-->
+    <script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/function.min.js?v=6.0.020191205"></script>
+    <script src="https://cdn.jsdelivr.net/gh/huxx16/cdn@master/assets/js/core.min.js?v=6.0.020191205"></script>
+
+
+<script type="text/javascript">
+            </script>
+
+<script type="text/javascript">   
+document.oncontextmenu = function(){    
+return false;    
+};   
+</script>
+<script type="text/javascript">
+document.body.oncopy=function(){alert('复制成功！复制它说明我的博客对你有用，但如果转载请标明哦！');}
+</script>
+<script type="text/javascript">
+function addLink() {
+    var body_element = document.getElementsByTagName('body')[0];
+    var selection;
+    selection = window.getSelection();
+    var pagelink = "  未经允许禁止转载或抄袭，若要转载请务必保留原文链接，谢谢！来自:王友元的博客 <a href='"+document.location.href+"'>"+document.location.href+"</a>"; 
+    var copy_text = selection + pagelink;
+    var new_div = document.createElement('div');
+    new_div.style.left='-99999px';
+    new_div.style.position='absolute';
+    body_element.appendChild(new_div );
+    new_div.innerHTML = copy_text ;
+    selection.selectAllChildren(new_div );
+    window.setTimeout(function() {
+        body_element.removeChild(new_div );
+    },0);
+}
+document.oncopy = addLink;
+</script>
+</body>
+</html><!--html end-->
+    <!-- / footer -->
+
+
+
+
+<script language=javascript src='/index/thumb.png' data-original="jingtai.php?t=1591140607"></script>
